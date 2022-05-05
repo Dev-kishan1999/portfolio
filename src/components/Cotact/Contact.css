@@ -62,7 +62,6 @@ input[type='submit']:hover {
     transition: all 0.3s ease;
     color: var(--clr-white);
     background-color: rgb(253,85,14);
-    cursor: pointer;
 }
 
 @media screen and (max-width:768px) {
