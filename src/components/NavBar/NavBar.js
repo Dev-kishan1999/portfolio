@@ -6,7 +6,7 @@ import './NavBar.css'
 
 // icons
 import { BiMenuAltRight } from 'react-icons/bi'
-import { AiOutlineClose } from 'react-icons/ai'
+//import { AiOutlineClose } from 'react-icons/ai'
 
 const NavBar = ()=>{
 

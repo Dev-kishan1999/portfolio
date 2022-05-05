@@ -1,4 +1,4 @@
-import React,{ useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 // styles
@@ -13,7 +13,7 @@ import Photo from '../../assets/photo-4.jpg'
 
 const Main = ()=>{
 
-    const [readMore,setReadMore] = useState(false)
+   // const [readMore,setReadMore] = useState(false)
 
     return (
         <>
@@ -47,7 +47,7 @@ const Main = ()=>{
                 <hr/>
                 <div className="project-container">
                     <div className="image">
-                        <img src={Photo} className='project-image' />
+                        <img src={Photo} className='project-image' alt='' />
                     </div>
                     <div className="project-detail">
                         <h1 className='project-title'>CodeAnalyzer</h1>

@@ -7,7 +7,7 @@ import './About.css'
 import { VscDebugBreakpointFunction } from 'react-icons/vsc';
 
 // assests
-import Photo from '../../assets/photo-5.jpg';
+//import Photo from '../../assets/photo-5.jpg';
 import Photo2 from '../../assets/photo-6.jpg';
 
 const About = () =>{
@@ -19,7 +19,7 @@ const About = () =>{
             <div className="about-content">
                 <div className="about-image">
                     {/* <span><img src={Photo} /></span> */}
-                    <img src={Photo2} />
+                    <img src={Photo2} alt=''/>
                 </div>
                 <div className="about-intro">
                     <div className="about-icon">

@@ -8,10 +8,10 @@ import './Contact.css';
 // vpucXGspElUhPmkwAec1w
 const Contact = ()=>{
 
-    function sendEmail(e) {
-        e.preventDefault();
+    // function sendEmail(e) {
+    //     e.preventDefault();
        
-    }
+    // }
 
 
     return (

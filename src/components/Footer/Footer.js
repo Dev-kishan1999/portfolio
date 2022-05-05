@@ -6,7 +6,7 @@ import './Footer.css'
 // icons
 import { AiOutlineCopyrightCircle } from 'react-icons/ai';
 import { BsInstagram,BsLinkedin } from 'react-icons/bs';
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 const Footer = ()=>{
     return (
