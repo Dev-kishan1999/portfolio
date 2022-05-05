@@ -1,0 +1,73 @@
+@import '../../variables.css';
+
+.contact-wrapper {
+    min-height: 90vh;
+}
+
+.contact-title{
+    font-family: var(--font-family-4);
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+form {
+    width: 70%;
+    margin: auto 2rem;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin: 20px 0;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid var(--clr-black);
+}
+
+input[type='text']:focus,
+textarea:focus {
+    border-bottom: 1px solid rgb(253,85,14);
+}
+
+textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgb(253,85,14);
+}
+
+.center {
+    text-align: center;
+}
+
+input[type='submit'] {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    border: none;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+input[type='submit']:hover {
+    transition: all 0.3s ease;
+    color: var(--clr-white);
+    background-color: rgb(253,85,14);
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    form {
+        margin: 1rem auto;
+        width: 90%;
+    }
+}

@@ -1,0 +1,161 @@
+@import '../../variables.css';
+
+
+/* .header {
+    height: 100px;
+    width: 100vw;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--clr-grey-1);
+}
+
+.content {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 40%;
+    color: var(--clr-grey-1);
+    
+}
+ .logo h2 {
+     width: auto;
+     text-transform: uppercase;
+     letter-spacing: 0.2rem;
+ }
+
+.content nav{
+    
+    width: 30%;
+}
+
+.content nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+    width: 100%;  
+    list-style: none;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: var(--clr-grey-1);
+    margin-right: 0.5rem;
+} 
+
+@media screen and (max-width:768px) {
+    .nav-link {
+        position: absolute;
+    }
+} */
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    position:sticky;
+    top: 0;
+    left: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.logo {
+    width: 40%;
+    color: var(--clr-black);
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    
+}
+
+.nav-links {  
+    width: 25%;  
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--clr-grey-1 );
+    margin-right: 0.4rem;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    color: rgb(253,85,14);
+    outline: 0;
+    transition: all 0.5s ease;
+    cursor: wait;
+}
+
+.toggle {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    .nav-links {
+      width:100%;  
+      position: absolute;
+      right: 0px;
+      height: 92vh;
+      top:8vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.6rem;
+      
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+      background: var(--clr-white);
+      margin-top: 16px; 
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .toggle {
+        font-size: 1.5rem;
+        display: block;
+    }
+    
+}
+
+.nav-active {
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

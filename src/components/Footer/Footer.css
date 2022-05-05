@@ -1,0 +1,93 @@
+@import '../../variables.css';
+
+.footer {
+    margin: 2rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+}
+
+.contact-me {
+    display: flex;
+    margin-left: 35%;
+    justify-content: center;
+    text-align: center;  
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: var(--clr-black);
+    transition: all 0.5s ease;
+}
+
+.contact-me a:hover {
+    transition: all 0.5s ease;
+    color: rgb(253,85,14);
+}
+
+.contact-div{
+    color: var(--clr-black);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    position: relative;
+}
+
+.contact-div:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(253,85,14);
+    transition: width 0.5s ease 0s, left 0.5s ease 0s;
+    width:0;
+}
+
+.contact-div:hover:after{
+    width: 100%;
+    left: 0;
+    transition: all 0.5s ease;
+}
+
+.social-link {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 35%;
+}
+
+.social-link a {
+    text-decoration: none;
+    color: var(--clr-black);
+    transition: all 0.5s ease;
+    float: left;
+}
+
+.social-link a:hover {
+    transition: all 0.5s ease;
+    color: rgb(253,85,14);
+}
+
+
+@media screen and (max-width:768px) {
+    .contact-me{
+        display: none;
+    }
+
+    
+}

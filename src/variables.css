@@ -1,0 +1,58 @@
+/*
+=========
+fonts 
+=========
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+
+
+/*
+==========
+Variables
+==========
+*/
+
+:root {
+  /* brown primary*/
+  --clr-primary-1: #CB997E;
+  --clr-primary-2: #DDBEA9;
+  --clr-primary-3: #FFE8D6;
+  /* dark version */
+  --clr-primary-dark-1: hsl(28, 56, 32);
+  --clr-primary-dark-2: hsl(74, 19, 36);
+  /* green primary */
+  --clr-primary-4: #6B705C;
+  --clr-primary-5: #A5A58D;
+  /* darkest grey - used for headings */
+  --clr-grey-1: #495057;
+  --clr-grey-2: #6C757D;
+  --clr-grey-3: #ADB5BD;
+  --clr-grey-4: #CED4DA;
+  /* grey used for paragraphs */
+  /* --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%); */
+  --clr-white: #fff;
+  --clr-black: #222;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 920px;
+  --font-family: 'Work Sans', sans-serif;
+  --font-family-2: 'Bangers', cursive;
+  --font-family-3: 'Abril Fatface', cursive;
+  --font-family-4: 'Bebas Neue', cursive;
+}
+
+
